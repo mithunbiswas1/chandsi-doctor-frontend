@@ -16,7 +16,7 @@ const bannerContent = {
     "Discover trusted healthcare facilities near you — where compassionate care meets advanced treatment.",
 };
 
-export const ClinicPagr = () => {
+export const ClinicPage = () => {
   const [clinics, setClinics] = useState([]);
 
   useEffect(() => {
@@ -130,4 +130,4 @@ export const ClinicPagr = () => {
   );
 };
 
-export default Clinics;
+export default ClinicPage;
