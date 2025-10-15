@@ -1,0 +1,91 @@
+/* src/app/globals.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --primary: #0360D9;
+  --secondary: #ffffff;
+  --darkblue: #0D2B46;
+  --lightblue:#E1EEFF;
+  --black:#000000;
+  --white: #ffffff;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-darkblue: var(--darkblue);
+  --color-lightblue: var(--lightblue);
+  --color-white: var(--white);
+
+  --font-sans: "Roboto", sans-serif;
+  --font-lato: "Lato", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--white);
+  color: var(--black);
+}
+
+/* Custom CSS */
+._max_width {
+  @apply w-full lg:max-w-[1280px] mx-auto px-4;
+}
+
+._h1 {
+  @apply text-4xl md:text-6xl lg:text-7xl font-bold;
+}
+
+._h2 {
+  @apply text-3xl lg:text-4xl font-bold;
+}
+
+._h3 {
+  @apply text-2xl lg:text-3xl font-bold;
+}
+
+._h4 {
+  @apply text-xl lg:text-2xl font-semibold;
+}
+
+._h5 {
+  @apply text-lg lg:text-xl font-semibold;
+}
+
+._h6 {
+  @apply text-base font-medium;
+}
+
+._p {
+  @apply text-sm lg:text-base font-normal text-gray-800;
+}
+
+
+/* Primary filled button */
+._btn {
+  @apply px-4 py-2 rounded-md font-semibold transition-all duration-300;
+
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+._btn:hover {
+  background-color: #024bb5; /* Slightly darker shade of primary */
+  cursor: pointer;
+}
+
+/* Outline button */
+._btn-outline {
+  @apply px-4 py-2 rounded-md font-semibold transition-all duration-300;
+
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+._btn-outline:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}

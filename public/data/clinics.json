@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Downtown Clinic",
+    "tagline": "Your trusted health partner in the city center.",
+    "location": "123 Main Street, City Center",
+    "hours": "Mon-Sat: 8:00 AM - 6:00 PM",
+    "phone": "123-456-7890",
+    "imageUrl": "https://i.ibb.co/wrdNhJGf/clinic1.jpg"
+  },
+  {
+    "name": "Suburban Health Center",
+    "tagline": "Quality family care, right in your neighborhood.",
+    "location": "456 Oak Avenue, Suburbia",
+    "hours": "Mon-Fri: 9:00 AM - 5:00 PM",
+    "phone": "123-456-7891",
+    "imageUrl": "https://i.ibb.co/Txw349BS/clinic2.jpg"
+  },
+  {
+    "name": "Coastal Medical Facility",
+    "tagline": "Advanced care with a focus on sports medicine.",
+    "location": "789 Beach Road, Coastal Town",
+    "hours": "Mon-Sun: 9:00 AM - 7:00 PM",
+    "phone": "123-456-7892",
+    "imageUrl": "https://i.ibb.co/Q76djjyb/clinic3.jpg"
+  }
+]
